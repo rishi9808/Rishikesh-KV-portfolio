@@ -86,7 +86,7 @@ export const DATA = {
       start: "July 2024",
       end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+       "Building a ERP and Cloud service platform for small and medium businesses. I am responsible for designing and implementing the frontend architecture, building reusable components, and integrating with backend services."
     },
     {
       company: "GreenInk",
@@ -98,7 +98,7 @@ export const DATA = {
       start: "January 2021",
       end: "April 2021",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Developed a LMS application and also mentored junior developers in frontend development."
     },
     {
       company: "Brandism",
@@ -110,7 +110,7 @@ export const DATA = {
       start: "January 2020",
       end: "April 2020",
       description:
-        "Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.",
+        "Developed a custom web application for the client using React and Node.js"
     },
     {
       company: "convai Innovation",
@@ -122,7 +122,7 @@ export const DATA = {
       start: "January 2019",
       end: "April 2019",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+      "Learned about AI and LLMs "
     },
     {
       company: "GTECH Mulearn GCEK",
@@ -134,7 +134,7 @@ export const DATA = {
       start: "January 2018",
       end: "April 2018",
       description:
-        "Proposed and implemented an internal ruby API for sending/receiving commands to scooters over LTE networks. Developed a fully automated bike firmware update system to handle asynchronous firmware updates of over 100,000+ scooters worldwide, and provide progress reports in real-time using React, Ruby on Rails, PostgreSQL and AWS EC2 saving hundreds of developer hours.",
+      "Mentored junior developers in web development "
     },
   ],
   education: [
