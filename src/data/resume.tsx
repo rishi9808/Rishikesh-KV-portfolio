@@ -1,6 +1,22 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
+type Project = {
+  title: string;
+  href: string;
+  dates: string;
+  active: boolean;
+  description: string;
+  technologies: readonly string[];
+  links: readonly {
+    type: string;
+    href: string;
+    icon: React.ReactNode;
+  }[];
+  image?: string;
+  video?: string;
+};
+
 export const DATA = {
   name: "Rishikesh",
   initials: "K V",
@@ -163,9 +179,7 @@ export const DATA = {
         },
       ],
       image: "/Astrabiz-1.png",
-      video:""
-        // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-    },
+    } as Project,
     {
       title: "PDFGenie",
       href: "https://chat-with-pdf-gules.vercel.app",
@@ -194,9 +208,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      // image: "/pg.png",
       video: "/pdfgenie.webm",
-    },
+    } as Project,
     {
       title: "Imagine AI",
       href: "https://dashing-dodol-5dead0.netlify.app/",
@@ -223,8 +236,7 @@ export const DATA = {
         },
       ],
       image: "/imagineAi.png",
-      // video: "https://cdn.llm.report/openai-demo.mp4",
-    },
+    } as Project,
     {
       title: "Alowishus Cafe Website",
       href: "https://alowishus-catering.vercel.app/",
@@ -251,15 +263,14 @@ export const DATA = {
         },
       ],
       image: "/cafe.png",
-    },
+    } as Project,
   ],
   hackathons: [
     {
       title: "Top 100 Coders Kerala",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
-      description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+      dates: "November 23rd - 25th, 2022",
+      location: "Huddle Global, Trivandrum",
+      description: "Participated in a hackathon to develop innovative solutions for local businesses using AI.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
@@ -267,10 +278,10 @@ export const DATA = {
     },
     {
       title: "UST Global SIGHT EXPO",
-      dates: "September 14th - 16th, 2018",
-      location: "UST Global, Trivanadrum",
+      dates: "September 2023",
+      location: "UST Global, Trivandrum",
       description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+        "Developed AI based Medical Scribing Assistant which helps doctors to write prescriptions and medical reports using voice commands.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
@@ -278,10 +289,10 @@ export const DATA = {
     },
     {
       title: "Tinkerhub State level Hackathon",
-      dates: "September 14th - 16th, 2018",
+      dates: "September 2020",
       location: "Government College Of Engineering Kannur",
       description:
-        "Developed a mobile application which delivers university campus wide events in real time to all students.",
+      "Developed a clinical management system for hospitals to manage patient records, appointments, and billing.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
