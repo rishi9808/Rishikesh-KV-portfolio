@@ -28,14 +28,7 @@ export const DATA = {
   summary:
     "I love building stuffs in code and have a passion for learning and sharing my knowledge with others. I have a strong background in software development and have worked on a variety of projects. I am always looking for new opportunities to learn and grow. In the past, [I pursued a degree in computer science and engineering](/#education), [interned at  tech companies in the field of AI and web development](/#education), and [competed in over 2 hackathons for fun](/#hackathons).",
   avatarUrl: "/profile.jpeg",
-  skills: [
-    "React",
-    "Typescript",
-    "Node.js",
-    "Python",
-    "Figma",
-    "MongoDB",
-  ],
+  skills: ["React", "Typescript", "Node.js", "Python", "Figma", "MongoDB"],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
@@ -67,7 +60,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url:  "mailto:rishikeshkaroth@gmail.com",
+        url: "mailto:rishikeshkaroth@gmail.com",
         icon: Icons.email,
 
         navbar: true,
@@ -86,7 +79,7 @@ export const DATA = {
       start: "July 2024",
       end: "Present",
       description:
-       "Building a ERP and Cloud service platform for small and medium businesses. I am responsible for designing and implementing the frontend architecture, building reusable components, and integrating with backend services."
+        "Building a ERP and Cloud service platform for small and medium businesses. I am responsible for designing and implementing the frontend architecture, building reusable components, and integrating with backend services.",
     },
     {
       company: "GreenInk",
@@ -98,7 +91,7 @@ export const DATA = {
       start: "January 2021",
       end: "April 2021",
       description:
-        "Developed a LMS application and also mentored junior developers in frontend development."
+        "Developed a LMS application and also mentored junior developers in frontend development.",
     },
     {
       company: "Brandism",
@@ -110,7 +103,7 @@ export const DATA = {
       start: "January 2020",
       end: "April 2020",
       description:
-        "Developed a custom web application for the client using React and Node.js"
+        "Developed a custom web application for the client using React and Node.js",
     },
     {
       company: "convai Innovation",
@@ -121,8 +114,7 @@ export const DATA = {
       logoUrl: "/convai_innovations_logo.svg",
       start: "January 2019",
       end: "April 2019",
-      description:
-      "Learned about AI and LLMs "
+      description: "Learned about AI and LLMs ",
     },
     {
       company: "GTECH Mulearn GCEK",
@@ -133,8 +125,7 @@ export const DATA = {
       logoUrl: "/µLearn.webp",
       start: "January 2018",
       end: "April 2018",
-      description:
-      "Mentored junior developers in web development "
+      description: "Mentored junior developers in web development ",
     },
   ],
   education: [
@@ -156,6 +147,53 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Claudion",
+      href: "https://saudi.claudion.com/portal-home",
+      dates: "Jan 2025 - Mar 2025",
+      active: true,
+      description: "Saas platform for managing cloud resources and services.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://saudi.claudion.com/portal-home",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/Claudion.png",
+    } as Project,
+    {
+      title: "Iggzy App",
+      href: "https://iggzy.app",
+      dates: "Jul 2025 - Sep 2025",
+      active: true,
+      description:
+        "Saas platform for freelancers and solopreneurs for invoicing and project management.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Firebase",
+        "Razorpay",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://iggzy.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/Iggzy.png",
+    } as Project,
     {
       title: "Astrabiz",
       href: "https://astrabiz.vercel.app/",
@@ -217,12 +255,7 @@ export const DATA = {
       active: true,
       description:
         "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
-        "React js",
-        "Tailwind Css",
-        "OpenAI",
-        "Cloudinary"
-      ],
+      technologies: ["React js", "Tailwind Css", "OpenAI", "Cloudinary"],
       links: [
         {
           type: "Website",
@@ -244,12 +277,7 @@ export const DATA = {
       active: true,
       description:
         "Developed a website for a local cafe. The website is built using Next.js and Tailwind CSS.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "Shadcn UI",
-      ],
+      technologies: ["Next.js", "Typescript", "TailwindCSS", "Shadcn UI"],
       links: [
         {
           type: "Website",
@@ -270,7 +298,8 @@ export const DATA = {
       title: "Top 100 Coders Kerala",
       dates: "November 23rd - 25th, 2022",
       location: "Huddle Global, Trivandrum",
-      description: "Participated in a hackathon to develop innovative solutions for local businesses using AI.",
+      description:
+        "Participated in a hackathon to develop innovative solutions for local businesses using AI.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
@@ -292,7 +321,7 @@ export const DATA = {
       dates: "September 2020",
       location: "Government College Of Engineering Kannur",
       description:
-      "Developed a clinical management system for hospitals to manage patient records, appointments, and billing.",
+        "Developed a clinical management system for hospitals to manage patient records, appointments, and billing.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
